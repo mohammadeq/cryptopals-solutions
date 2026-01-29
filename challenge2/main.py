@@ -1,9 +1,3 @@
-"""
-Cryptopals Set 1 Challenge 2: Fixed XOR 
-Challenge link: https://cryptopals.com/sets/1/challenges/2
-"""
-
-
 def XOR(frist_string, second_string):
     first_string_bytes = list(bytes.fromhex(frist_string))
     second_string_bytes = list(bytes.fromhex(second_string))
